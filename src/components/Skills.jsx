@@ -61,10 +61,10 @@ const Skills = () => {
     ]
 
   return (
-    <div name='skills' className='bg-gradient-to-b from-gray-800 via-[#0a192f] to-[#0a192f] w-full h-screen'>
+    <div name='skills' className='bg-gradient-to-b from-gray-800 via-[#0a192f] to-[#0a192f] w-full py-12'>
         <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white'>
             <div className='py-6'>
-                <p className='text-4xl font-bold border-b-4 border-gray-500 p-2 inline'>Habilidades tecnicas</p>
+                <p className='text-4xl font-bold border-b-4 border-gray-500 inline leading-10'>Habilidades tecnicas</p>
             </div>
             <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0'>
                 {

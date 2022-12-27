@@ -37,7 +37,7 @@ const Projects = () => {
     ];
 
   return (
-    <div name='proyectos' className='bg-gradient-to-b from-[#0a192f] via-[#0a192f] to-gray-800 w-full text-white md:h-screen'>
+    <div name='proyectos' className='bg-gradient-to-b from-[#0a192f] via-[#0a192f] to-gray-800 w-full text-white py-12'>
         <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
             <div className='py-6 pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 border-gray-500'>Mis proyectos</p>
