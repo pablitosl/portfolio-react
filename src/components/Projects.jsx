@@ -14,37 +14,49 @@ const Projects = () => {
             id: 1,
             src: ahorcado,
             title: 'Ahorcado',
-            skills: 'HTML, CSS, JS'
+            skills: 'HTML, CSS, JS',
+            linkdemo: 'https://pablitosl.github.io/ahorcado-alura.github.io/',
+            linkcode: 'https://github.com/pablitosl/ahorcado-alura.github.io',
         },
         {
             id: 2,
             src: ecommerce,
             title: 'Ecommerce',
-            skills: 'HTML, CSS, Bootstrap, JS'
+            skills: 'HTML, CSS, Bootstrap, JS',
+            linkdemo: 'https://pablitosl.github.io/ecommerce/',
+            linkcode: 'https://github.com/pablitosl/ecommerce',
         },
         {
             id: 3,
             src: portfolio,
             title: 'Portfolio',
-            skills: 'HTML, CSS, Bootstrap'
+            skills: 'HTML, CSS, Bootstrap',
+            linkdemo: 'https://pablitosl.github.io/Portfolio/',
+            linkcode: 'https://github.com/pablitosl/portfolio',
         },
         {
             id: 4,
             src: encriptador,
             title: 'Encriptador',
-            skills: 'HTML, CSS, JS'
+            skills: 'HTML, CSS, JS',
+            linkdemo: 'https://pablitosl.github.io/Encriptador-alura.github.io/',
+            linkcode: 'https://github.com/pablitosl/Encriptador-alura.github.io',
         },
         {
             id: 5,
             src: todolist,
             title: 'Todo List',
-            skills: 'HTML, CSS, JS'
+            skills: 'HTML, CSS, JS',
+            linkdemo: 'https://pablitosl.github.io/todolist/',
+            linkcode: 'https://github.com/pablitosl/todolist',
         },
         {
             id: 6,
             src: otraoportunidad,
             title: 'Otra Oportunidad',
-            skills: 'HTML, CSS, JS, NodeJS , MongoDB'
+            skills: 'HTML, CSS, JS, NodeJS , MongoDB',
+            linkdemo: 'https://otra-oportunidad-production.up.railway.app/',
+            linkcode: 'https://github.com/pablitosl/otra-oportunidad',
         },
     ];
 
@@ -57,7 +69,7 @@ const Projects = () => {
             
             <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-10 px-12 sm:px-0'>
                 {
-                    proyectos.map(({id,src,title,skills}) => (
+                    proyectos.map(({id,src,title,skills,linkdemo,linkcode}) => (
                         <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
                             <img src={src} alt="" className='rounded-md duration-200 hover:scale-105'/>
                             <div className='text-center pt-2'>
@@ -65,8 +77,8 @@ const Projects = () => {
                                 <p>({skills})</p>
                             </div>
                             <div className='flex items-center justify-center'>
-                                <button className='text-white bg-gradient-to-b from-cyan-500 to-blue-500 rounded-md w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Demo</button>
-                                <button className='text-white bg-gradient-to-b from-cyan-500 to-blue-500 rounded-md w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Code</button>
+                                <button className='text-white bg-gradient-to-b from-cyan-500 to-blue-500 rounded-md w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'><a href={linkdemo} target='_blank' rel='noreferrer'>Demo</a></button>
+                                <button className='text-white bg-gradient-to-b from-cyan-500 to-blue-500 rounded-md w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'><a href={linkcode} target='_blank' rel='noreferrer'>Code</a></button>
                         </div>
                     </div>))
                 }
