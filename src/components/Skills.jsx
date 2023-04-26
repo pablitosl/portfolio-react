@@ -7,6 +7,10 @@ import git from '../assets/skills/git.png'
 import reactImg from '../assets/skills/react.png'
 import nodejs from '../assets/skills/nodejs.png'
 import mongodb from '../assets/skills/mongodb.png'
+import tailwind from '../assets/skills/tailwind.png'
+import python from '../assets/skills/python.png'
+import vue from '../assets/skills/vue.png'
+import mysql from '../assets/skills/mysql.png'
 
 const Skills = () => {
     const tecnologias = [
@@ -24,43 +28,67 @@ const Skills = () => {
         },
         {
             id: 3,
+            src: bootstrap,
+            title: 'Bootstrap',
+            style: 'shadow-violet-600'
+        },
+        {
+            id: 4,
+            src: tailwind,
+            title: 'Tailwind CSS',
+            style: 'shadow-blue-400'
+        },
+        {
+            id: 5,
             src: javascript,
             title: 'JavaScript',
             style: 'shadow-yellow-500'
         },
         {
-            id: 4,
-            src: bootstrap,
-            title: 'Bootstrap',
-            style: 'shadow-violet-500'
-        },
-        {
-            id: 5,
+            id: 6,
             src: reactImg,
             title: 'React JS',
             style: 'shadow-blue-400'
         },
         {
-            id: 6,
+            id: 7,
+            src: vue,
+            title: 'Vue JS',
+            style: 'shadow-green-400'
+        },
+        {
+            id: 8,
             src: git,
             title: 'GIT',
             style: 'shadow-orange-500'
         },
         {
-            id: 7,
+            id: 9,
             src: nodejs,
             title: 'Node JS',
             style: 'shadow-green-500'
         },
         {
-            id: 8,
+            id: 10,
+            src: python,
+            title: 'Python',
+            style: 'shadow-blue-500'
+        },
+        {
+            id: 11,
+            src: mysql,
+            title: 'MySQL',
+            style: 'shadow-orange-400'
+        },
+        {
+            id: 12,
             src: mongodb,
             title: 'Mongo DB',
             style: 'shadow-green-500'
         },
     ]
 
-  return (
+return (
     <div name='skills' className='bg-gradient-to-b from-gray-800 via-[#0a192f] to-[#0a192f] w-full py-12'>
         <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white'>
             <div className='py-6'>
