@@ -5,6 +5,9 @@ import portfolio from '../assets/projects/Portfolio.png'
 import encriptador from '../assets/projects/encriptador.png'
 import todolist from '../assets/projects/todolist.png'
 import otraoportunidad from '../assets/projects/otraoportunidad.png'
+import rickymorty from '../assets/projects/rickymorty.png'
+import portfolioreact from '../assets/projects/portfolioreact.png'
+import appclima from '../assets/projects/appclima.png'
 
 
 const Projects = () => {
@@ -12,35 +15,35 @@ const Projects = () => {
     const proyectos = [
         {
             id: 1,
+            src: appclima,
+            title: 'App del Clima',
+            skills: 'HTML, CSS, JS, React',
+            linkdemo: 'https://react-appclima.netlify.app/',
+            linkcode: 'https://github.com/pablitosl/app-clima',
+        },
+        {
+            id: 2,
+            src: rickymorty,
+            title: 'API Rick & Morty',
+            skills: 'HTML, CSS, Bootstrap, JS, React',
+            linkdemo: 'https://otra-oportunidad-production.up.railway.app/',
+            linkcode: 'https://github.com/pablitosl/app-rick-morty',
+        },
+        {
+            id: 3,
+            src: portfolioreact,
+            title: 'Portfolio React',
+            skills: 'HTML, CSS, Tailwind, JS, React',
+            linkdemo: 'https://portfolio-react-pablo.netlify.app/',
+            linkcode: 'https://github.com/pablitosl/portfolio-react',
+        },
+        {
+            id: 4,
             src: ahorcado,
             title: 'Ahorcado',
             skills: 'HTML, CSS, JS',
             linkdemo: 'https://pablitosl.github.io/ahorcado-alura.github.io/',
             linkcode: 'https://github.com/pablitosl/ahorcado-alura.github.io',
-        },
-        {
-            id: 2,
-            src: ecommerce,
-            title: 'Ecommerce',
-            skills: 'HTML, CSS, Bootstrap, JS',
-            linkdemo: 'https://pablitosl.github.io/ecommerce/',
-            linkcode: 'https://github.com/pablitosl/ecommerce',
-        },
-        {
-            id: 3,
-            src: portfolio,
-            title: 'Portfolio',
-            skills: 'HTML, CSS, Bootstrap',
-            linkdemo: 'https://pablitosl.github.io/Portfolio/',
-            linkcode: 'https://github.com/pablitosl/portfolio',
-        },
-        {
-            id: 4,
-            src: encriptador,
-            title: 'Encriptador',
-            skills: 'HTML, CSS, JS',
-            linkdemo: 'https://pablitosl.github.io/Encriptador-alura.github.io/',
-            linkcode: 'https://github.com/pablitosl/Encriptador-alura.github.io',
         },
         {
             id: 5,
@@ -57,6 +60,30 @@ const Projects = () => {
             skills: 'HTML, CSS, JS, NodeJS , MongoDB',
             linkdemo: 'https://otra-oportunidad-production.up.railway.app/',
             linkcode: 'https://github.com/pablitosl/otra-oportunidad',
+        },
+        {
+            id: 7,
+            src: portfolio,
+            title: 'Portfolio',
+            skills: 'HTML, CSS, Bootstrap',
+            linkdemo: 'https://pablitosl.github.io/Portfolio/',
+            linkcode: 'https://github.com/pablitosl/portfolio',
+        },
+        {
+            id: 8,
+            src: ecommerce,
+            title: 'Ecommerce',
+            skills: 'HTML, CSS, Bootstrap, JS',
+            linkdemo: 'https://pablitosl.github.io/ecommerce/',
+            linkcode: 'https://github.com/pablitosl/ecommerce',
+        },
+        {
+            id: 9,
+            src: encriptador,
+            title: 'Encriptador',
+            skills: 'HTML, CSS, JS',
+            linkdemo: 'https://pablitosl.github.io/Encriptador-alura.github.io/',
+            linkcode: 'https://github.com/pablitosl/Encriptador-alura.github.io',
         },
     ];
 
