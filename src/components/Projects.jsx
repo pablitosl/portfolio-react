@@ -26,7 +26,7 @@ const Projects = () => {
             src: rickymorty,
             title: 'API Rick & Morty',
             skills: 'HTML, CSS, Bootstrap, JS, React',
-            linkdemo: 'https://otra-oportunidad-production.up.railway.app/',
+            linkdemo: 'https://app-rick-andmorty.netlify.app/',
             linkcode: 'https://github.com/pablitosl/app-rick-morty',
         },
         {
