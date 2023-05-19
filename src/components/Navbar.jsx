@@ -32,13 +32,13 @@ const Navbar = () => {
     return (
         <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
             <div >
-                <h1 className='text-4xl font-bold font-signature'>Pablo Castro</h1>
+                <h1 className='text-5xl font-bold font-signature cursor-pointer'><Link to='home'>Pablo Castro</Link></h1>
             </div>
 
             {/* MENU */}
             <ul className='hidden md:flex'>
                 {links.map(({id, link}) => {
-                    return(<li key={id} className='px-4 cursor-pointer capitalize font-medium hover:text-gray-500 hover:scale-105 duration-200'>
+                    return(<li key={id} className='px-4 cursor-pointer capitalize text-xl font-medium hover:text-gray-500 hover:scale-105 duration-200'>
                     <Link to={link} smooth duration={500}>{link}</Link>
                 </li>)
                 })}

@@ -8,17 +8,16 @@ const About = () => {
                 <p className='text-4xl font-bold inline border-b-4 border-gray-500'>Sobre mi</p>
             </div>
 
-            <p className='text-xl mt-20'>Hola me llamo de Pablo Castro, tengo 25 años y soy de Buenos Aires, Argentina.
+            <p className='text-xl mt-20 leading-8 tracking-wide'>Hola me llamo de Pablo Castro, tengo 25 años y soy de Buenos Aires, Argentina.
             </p>
             <br />
-            <p className='text-xl'>Soy un estudiante de la 'Tecnicatura en Programación' en la Universidad Nacional de Hurlingham con iniciativa y ganas de superarse. Cuento con la capacidad de trabajar en equipo y resolución de problemas. Busco mi primer trabajo IT para poder adquirir nuevas experiencias en lo profesional y en lo personal.
+            <p className='text-xl leading-8 tracking-wide'>Soy un <strong className='text-blue-400'>estudiante de la 'Tecnicatura en Programación' en la Universidad Nacional de Hurlingham</strong> con iniciativa y ganas de superarse. Cuento con la capacidad de trabajar en equipo y resolución de problemas. Busco mi primer trabajo IT para poder adquirir nuevas experiencias en lo profesional y en lo personal.
             </p>
             <br />
-            <p className='text-xl'>Actualmente me encuentro estudiando el programa de Codo a codo 4.0 Programación full stack Python/Vue.js
+            <p className='text-xl leading-8 tracking-wide'>Actualmente me encuentro estudiando el programa de <strong className='text-blue-400'>Codo a codo 4.0 Programación full stack Python/Vue.js</strong></p>
+            <p className='text-xl leading-8 tracking-wide'>He estudiado el curso de <strong className='text-blue-400'>'Programación web full stack MERN' en Educacion IT</strong> gracias a una beca otorgada por la Fundación Pescar en conjunto con JPMorgan y Santander. En este curso aprendí a programar en JavaScript, HTML, CSS, React JS, Node JS, Express JS, MongoDB, GIT, Bootstrap, entre otras tecnologías.
             </p>
-            <p className='text-xl'>He estudiado el curso de 'Programación web full stack' en Educacion IT gracias a una beca otorgada por la Fundación Pescar en conjunto con JPMorgan y Santander. En este curso aprendí a programar en JavaScript, HTML, CSS, React JS, Node JS, Express JS, MongoDB, GIT, Bootstrap, entre otras tecnologías.
-            </p>
-            <p className='text-xl'>Tambien hice el programa ONE - Oracle Next Educatión de Oracle y Alura, en donde aprendí los fundamentos de la programación, Front End y Java.
+            <p className='text-xl leading-8 tracking-wide'>Tambien hice el <strong className='text-blue-400'>programa ONE - Oracle Next Educatión de Oracle y Alura</strong>, en donde aprendí los fundamentos de la programación, Front End y Java.
             </p>
         </div>
     </div>

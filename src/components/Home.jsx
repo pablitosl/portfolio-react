@@ -1,11 +1,11 @@
 import React from 'react'
-import foto from '../assets/fotoperfil.jpeg'
+import foto from '../assets/Pablo Castro.jpg'
 import { MdOutlineKeyboardArrowRight } from 'react-icons/md'
 import {Link} from 'react-scroll'
 
 const Home = () => {
-  return (
-    <div name='home' className='py-32 w-full bg-gradient-to-b from-[#0a192f] via-[#0a192f] to-gray-800'>
+return (
+    <div name='home' className='pt-32 pb-20 w-full bg-gradient-to-b from-[#0a192f] via-[#0a192f] to-gray-800 md:pb-28'>
         <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
             <div className='flex flex-col justify-center h-full'>
                 <p className='text-pink-600'>Hola, mi nombre es</p>
@@ -16,12 +16,12 @@ const Home = () => {
                     </Link>
                 </div>
             </div>
-            <div className='w-full py-8 md:w-3/4'>
+            <div className='w-full pt-8 md:w-3/4'>
                 <img src={foto} alt="Mi foto de perfil" className='rounded-full mx-auto w-2/3 md:w-full' />
             </div>
         </div>
     </div>
-  )
+)
 }
 
 export default Home

@@ -104,8 +104,8 @@ const Projects = () => {
                                 <p>({skills})</p>
                             </div>
                             <div className='flex items-center justify-center'>
-                                <button className='text-white bg-gradient-to-b from-cyan-500 to-blue-500 rounded-md w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'><a href={linkdemo} target='_blank' rel='noreferrer'>Demo</a></button>
-                                <button className='text-white bg-gradient-to-b from-cyan-500 to-blue-500 rounded-md w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'><a href={linkcode} target='_blank' rel='noreferrer'>Code</a></button>
+                                <button className='text-white bg-gradient-to-b from-cyan-500 to-blue-500 rounded-md w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'><a href={linkdemo} target='_blank' rel='noreferrer' className='font-bold'>Demo</a></button>
+                                <button className='text-white bg-gradient-to-b from-cyan-500 to-blue-500 rounded-md w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'><a href={linkcode} target='_blank' rel='noreferrer' className='font-bold'>Code</a></button>
                         </div>
                     </div>))
                 }
